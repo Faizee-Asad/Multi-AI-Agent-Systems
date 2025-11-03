@@ -68,17 +68,17 @@ os.environ.pop("GEMINI_API_KEY", None)
 ## 🧠 How It Works
 
 1. Define your goal
-e.g. "Plan a study schedule for RHCSA in 10 days"
+> e.g. "Plan a study schedule for RHCSA in 10 days"
 2. Planner Agent
-Breaks the goal into subtasks in logical order.
+> Breaks the goal into subtasks in logical order.
 3. Executor Agent
-Uses real-time web search to build a detailed schedule:
+> Uses real-time web search to build a detailed schedule:
 - One subtask per day
 - Time estimates
 - Actionable tips
 - Helpful resource links
 4. CrewAI Orchestration
-The two agents run sequentially to produce the final structured plan.
+> The two agents run sequentially to produce the final structured plan.
 
 ---
 

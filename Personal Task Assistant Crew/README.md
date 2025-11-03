@@ -67,41 +67,34 @@ os.environ.pop("GEMINI_API_KEY", None)
 
 ## 🧠 How It Works
 
-Define your goal
-> e.g. "Plan a study schedule for RHCSA in 10 days"
-
-Planner Agent
-> Breaks the goal into subtasks in logical order.
-
-Executor Agent
-> Uses real-time web search to build a detailed schedule:
-
-One subtask per day
-
-Time estimates
-
-Actionable tips
-
-Helpful resource links
-
-CrewAI Orchestration
+1. Define your goal
+e.g. "Plan a study schedule for RHCSA in 10 days"
+2. Planner Agent
+Breaks the goal into subtasks in logical order.
+3. Executor Agent
+Uses real-time web search to build a detailed schedule:
+- One subtask per day
+- Time estimates
+- Actionable tips
+- Helpful resource links
+4. CrewAI Orchestration
 The two agents run sequentially to produce the final structured plan.
 
-▶️ Example Usage
+---
 
+## ▶️ Example Usage
+```
 result = run_crew("Plan a study schedule for RHCSA in 10 days")
-
+```
 The output is printed as structured Markdown with daily breakdowns, including:
 
-Day and Date
+- Day and Date
+- Topics to Cover
+- Estimated Time
+- Tip
+- Useful Links
 
-Topics to Cover
-
-Estimated Time
-
-Tip
-
-Useful Links
+---
 
 ## 📂 Project Structure
 
@@ -117,9 +110,9 @@ Useful Links
 ## 💡 Customization
 
 You can easily adapt the assistant for other goals:
-- Project planning ("Plan my 5-day sprint for web app MVP")
-- Skill learning ("Learn Python for data analysis in 7 days")
-- Certification prep ("AWS Cloud Practitioner in 14 days")
+- **Project planning** ("Plan my 5-day sprint for web app MVP")
+- **Skill learning** ("Learn Python for data analysis in 7 days")
+- **Certification prep** ("AWS Cloud Practitioner in 14 days")
 - Just modify the goal text — the CrewAI agents handle the rest.
 
 ---

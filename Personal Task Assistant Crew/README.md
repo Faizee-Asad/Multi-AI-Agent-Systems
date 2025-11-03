@@ -22,9 +22,8 @@ Example goal:
 
 ## ⚙️ Architecture
 
-```
-Goal → Planner → Plan → Executor → Final Schedule
-```
+> Goal → Planner → Plan → Executor → Final Schedule
+
 
 ### Agents
 | Agent | Role | Description |

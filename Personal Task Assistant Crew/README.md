@@ -26,6 +26,7 @@ Example goal:
 
 
 ### Agents
+
 | Agent | Role | Description |
 |-------|------|--------------|
 | 🧠 **Planner** | Strategic breakdown | Splits a user goal into 6–10 logical subtasks |
@@ -47,29 +48,33 @@ Run in Google Colab **or locally** with Python 3.10+.
 pip install -qU crewai crewai-tools google-generativeai
 ```
 
-🔑 API Keys
+---
+## 🔑 API Keys
 
 Set your API keys before running:
-
+```
 import os
 
 os.environ["GOOGLE_API_KEY"] = "YOUR_GOOGLE_API_KEY"  # from https://ai.google.dev
 os.environ["SERPER_API_KEY"] = "YOUR_SERPER_API_KEY"  # from https://serper.dev
-
-
+```
 (Optional) Remove redundant Gemini key warnings:
+```
 os.environ.pop("GEMINI_API_KEY", None)
+```
 
-🧠 How It Works
+---
+
+## 🧠 How It Works
 
 Define your goal
-e.g. "Plan a study schedule for RHCSA in 10 days"
+> e.g. "Plan a study schedule for RHCSA in 10 days"
 
 Planner Agent
-Breaks the goal into subtasks in logical order.
+> Breaks the goal into subtasks in logical order.
 
 Executor Agent
-Uses real-time web search to build a detailed schedule:
+> Uses real-time web search to build a detailed schedule:
 
 One subtask per day
 
@@ -118,10 +123,12 @@ Certification prep ("AWS Cloud Practitioner in 14 days")
 
 Just modify the goal text — the CrewAI agents handle the rest.
 
+---
 🧾 License
 
 MIT License © 2025 — Open for use, modification, and learning.
 
+---
 🌟 Acknowledgments
 
 CrewAI
@@ -135,6 +142,7 @@ Serper.dev
 
 Inspired by practical AI task automation workflows.
 
-Author: [Your Name]
+---
+Author: Asad Faizee
 Created: November 2025
 Purpose: Demonstrate a minimal, working AI-powered task planning crew.

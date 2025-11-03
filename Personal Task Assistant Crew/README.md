@@ -124,25 +124,20 @@ Certification prep ("AWS Cloud Practitioner in 14 days")
 Just modify the goal text — the CrewAI agents handle the rest.
 
 ---
-🧾 License
 
+## 🧾 License
 MIT License © 2025 — Open for use, modification, and learning.
 
 ---
-🌟 Acknowledgments
+## 🌟 Acknowledgments
 
-CrewAI
- — Multi-agent orchestration framework
-
-Google Gemini
- — Advanced LLM for reasoning
-
-Serper.dev
- — Search API for real-time data
-
-Inspired by practical AI task automation workflows.
+**CrewAI** — Multi-agent orchestration framework
+**Google Gemini** — Advanced LLM for reasoning
+**Serper.dev** — Search API for real-time data
+** ** Inspired by practical AI task automation workflows.
 
 ---
-Author: Asad Faizee
-Created: November 2025
-Purpose: Demonstrate a minimal, working AI-powered task planning crew.
+
+**Author:** Asad Faizee
+**Created:** November 2025
+**Purpose:** Demonstrate a minimal, working AI-powered task planning crew.

@@ -103,25 +103,24 @@ Tip
 
 Useful Links
 
-📂 Project Structure
+## 📂 Project Structure
 
+```
 📁 Personal-Task-Assistant-Crew/
 │
 ├── Personal Task Assistant Crew Agents.ipynb   # Main notebook
 ├── README.md                                   # Project documentation
 └── requirements.txt                            # Optional dependency list
+```
+---
 
-💡 Customization
+## 💡 Customization
 
 You can easily adapt the assistant for other goals:
-
-Project planning ("Plan my 5-day sprint for web app MVP")
-
-Skill learning ("Learn Python for data analysis in 7 days")
-
-Certification prep ("AWS Cloud Practitioner in 14 days")
-
-Just modify the goal text — the CrewAI agents handle the rest.
+- Project planning ("Plan my 5-day sprint for web app MVP")
+- Skill learning ("Learn Python for data analysis in 7 days")
+- Certification prep ("AWS Cloud Practitioner in 14 days")
+- Just modify the goal text — the CrewAI agents handle the rest.
 
 ---
 
@@ -131,13 +130,13 @@ MIT License © 2025 — Open for use, modification, and learning.
 ---
 ## 🌟 Acknowledgments
 
-**CrewAI** — Multi-agent orchestration framework
-**Google Gemini** — Advanced LLM for reasoning
-**Serper.dev** — Search API for real-time data
-** ** Inspired by practical AI task automation workflows.
+- **CrewAI** — Multi-agent orchestration framework
+- **Google Gemini** — Advanced LLM for reasoning
+- **Serper.dev** — Search API for real-time data
+- Inspired by practical AI task automation workflows.
 
 ---
 
-**Author:** Asad Faizee
-**Created:** November 2025
-**Purpose:** Demonstrate a minimal, working AI-powered task planning crew.
+- **Author:** Asad Faizee
+- **Created:** November 2025
+- **Purpose:** Demonstrate a minimal, working AI-powered task planning crew.
